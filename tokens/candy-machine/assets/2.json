@@ -1,0 +1,10 @@
+{
+  "name": "Cryptocean #3",
+  "symbol": "FISHY",
+  "description": "Collection of deep sea creatures",
+  "image": "1.png",
+  "attributes": [{ "trait_type": "name", "value": "Arrus cuniculas" }],
+  "properties": {
+    "files": [{ "uri": "1.png", "type": "image/png" }]
+  }
+}

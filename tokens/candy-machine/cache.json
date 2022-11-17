@@ -1,0 +1,57 @@
+{
+  "program": {
+    "candyMachine": "A88jmFmyj6tJuhw1bXznoUF2Gd6rLJkEXi1Z1uKEw9ws",
+    "candyMachineCreator": "7FBdDyA5RMst9ajyY3QHy8QTtHoAQCxxgDtLK3GuspCx",
+    "collectionMint": "DF2qXedthQUosnpHBQFUGX7jgymTUVifBMEBbKSrknyY"
+  },
+  "items": {
+    "-1": {
+      "name": "Cryptofish",
+      "image_hash": "8109c2fedf343e75bdcdd9db12e91c6c5146504356b8a9fa01866dfa0a11b449",
+      "image_link": "https://arweave.net/dnznFd02-_0-h9nWddOBw-lTujSwxdNRIyyQEy4DffA?ext=png",
+      "metadata_hash": "7bc4285dce209c03ff146c4764e879209197da48a1ea8fdd6ee7dd22b888b564",
+      "metadata_link": "https://arweave.net/5e2oIp8mNFb9X1zgzFxT9-sXJwUBSrha_m9XGNjAuX4",
+      "onChain": true
+    },
+    "0": {
+      "name": "Cryptocean #1",
+      "image_hash": "58c719b75f712540aa72670406c1923dcf55d0a4ad08d4d10e3be022a7553ad1",
+      "image_link": "https://arweave.net/-qMTHCy33RarpcesvLvYgEFdzNIhaG0FuDxbwCiAnSM?ext=png",
+      "metadata_hash": "63b250430be6ade430956860ce2aa9fac4b9582291eadf5b729b55acd29a4910",
+      "metadata_link": "https://arweave.net/iVDhNqA5KSg8TdOBORrTcDEAN9qLX6RgewnePlCxWGM",
+      "onChain": true
+    },
+    "1": {
+      "name": "Cryptocean #2",
+      "image_hash": "b450db747d6bf0ed85a8ff24a1c4c654ebbb7770d3fd66f9dce6dbba5ac07366",
+      "image_link": "https://arweave.net/bi_n4Yf-qLtUPSm3fzHmnuzfC3wuAQxWCTKrkE09CrQ?ext=png",
+      "metadata_hash": "e618a3100ebe985da00c4c2050f40107c6ac4ed90e407a6d2236e3fbbe105ca9",
+      "metadata_link": "https://arweave.net/G_vfoh3vrD_j-UDXESZUsNnyKa-d1nDMUuA54PSZDXU",
+      "onChain": true
+    },
+    "2": {
+      "name": "Cryptocean #3",
+      "image_hash": "dd58e4a569423c86626159e5f368dc2954b7273a9d2e6a0170ad0974c9f75b3b",
+      "image_link": "https://arweave.net/-bqUbLrdlnoPfdv8gjX3bWbYz6SQ18A7zbaDw6nWtNo?ext=png",
+      "metadata_hash": "5a1d726d0d155650af661c5e0cd304746131637dbdaf4113a890236b3ac569d0",
+      "metadata_link": "https://arweave.net/rTPgpUxSQaDigZSu5zJIMcHkL5-_k7Z84PeXzH8kQ0w",
+      "onChain": true
+    },
+    "3": {
+      "name": "Cryptocean #4",
+      "image_hash": "4a54780169e034d16a2e98be5a965f74894a6d709fd3eb1dbe4f10ab046d90dd",
+      "image_link": "https://arweave.net/YgvtHS6a5T8Un5Ib1RxybpeMvlSEsBQ810a5y-lCOSY?ext=png",
+      "metadata_hash": "12c8f201bd223d92be012792cafd6092e5c8e826de56b2fc8ffe6b2888393a47",
+      "metadata_link": "https://arweave.net/2RWp2WvA6MtsVPKKLh4ra_pT67zo0etCPcUhbNKwCag",
+      "onChain": true
+    },
+    "4": {
+      "name": "Cryptocean #5",
+      "image_hash": "555b626aad53224ba8c3859677ea541567feca21899cbf340dc38d8b0db5a012",
+      "image_link": "https://arweave.net/uzpOjmNV6F6MyQEzqGKvJfEYm7VSd0VCZK5PNigxO-0?ext=png",
+      "metadata_hash": "658c6940924e6db9284bebe2bc802b28d5995c9de213a4abe472a5f41dd71862",
+      "metadata_link": "https://arweave.net/RsMfIz_vBKpbneiIuT97djKpHBJXeHDo6UwrJtS8658",
+      "onChain": true
+    }
+  }
+}
