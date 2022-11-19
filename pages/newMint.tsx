@@ -30,10 +30,13 @@ const NewMint: NextPage<NewMintProps> = ({ mint }) => {
   }, [connection, walletAdapter]);
 
   useEffect(() => {
+    // What this does is to allow us to find the NFT object
+    // based on the given mint address
     metaplex
       .nfts()
-      .findByMint({ mintAddress: mint })
+      .findByMint({ mintAddress: new PublicKey(mint) })
       .then((nft) => {
+        // We then fetch the NFT uri to fetch the NFT metadata
         fetch(nft.uri)
           .then((res) => res.json())
           .then((metadata) => {
@@ -53,12 +56,12 @@ const NewMint: NextPage<NewMintProps> = ({ mint }) => {
         <Container>
           <VStack spacing={8}>
             <Heading color='white' as='h1' size='2xl' textAlign='center'>
-              😮 A new buildoor has appeared!
+              😮 A new fishsy has swap up from the depths...
             </Heading>
 
             <Text color='bodyText' fontSize='xl' textAlign='center'>
-              Congratulations, you minted a lvl 1 buildoor! <br />
-              Time to stake your character to earn rewards and level up.
+              Congratulations, you minted a lvl 1 fishy! <br />
+              Time to stake your fish to earn rewards and level up.
             </Text>
           </VStack>
         </Container>
@@ -72,7 +75,7 @@ const NewMint: NextPage<NewMintProps> = ({ mint }) => {
           onClick={handleClick}
         >
           <HStack>
-            <Text>stake my buildoor</Text>
+            <Text>stake my fishy</Text>
             <ArrowForwardIcon />
           </HStack>
         </Button>

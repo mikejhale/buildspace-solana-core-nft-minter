@@ -20,14 +20,14 @@ import { useConnection, useWallet } from '@solana/wallet-adapter-react';
 import {
   Metaplex,
   walletAdapterIdentity,
-  CandyMachine,
+  CandyMachineV2,
 } from '@metaplex-foundation/js';
 import { useRouter } from 'next/router';
 
 const Connected: FC = () => {
   const { connection } = useConnection();
   const walletAdapter = useWallet();
-  const [candyMachine, setCandyMachine] = useState<CandyMachine>();
+  const [candyMachine, setCandyMachine] = useState<CandyMachineV2>();
   const [isMinting, setIsMinting] = useState(false);
 
   const metaplex = useMemo(() => {
@@ -38,13 +38,11 @@ const Connected: FC = () => {
     if (!metaplex) return;
 
     const candyMachineId = new PublicKey(
-      'A88jmFmyj6tJuhw1bXznoUF2Gd6rLJkEXi1Z1uKEw9ws'
+      'HYVcfu5nq6U2j74sfMJWYmm12Mh9PfEfFMFoeQSCH4xe'
     );
 
-    console.log(candyMachineId);
-
     metaplex
-      .candyMachines()
+      .candyMachinesV2()
       .findByAddress({
         address: candyMachineId,
       })
@@ -70,12 +68,13 @@ const Connected: FC = () => {
 
       try {
         setIsMinting(true);
-        const nft = await metaplex.candyMachines().mint({ candyMachine });
+        const nft = await metaplex.candyMachinesV2().mint({ candyMachine });
 
-        console.log(nft);
+        console.log('nft', nft);
         router.push(`/newMint?mint=${nft.nft.address.toBase58()}`);
       } catch (error) {
-        alert(error);
+        console.log(error);
+        //alert(error);
       } finally {
         setIsMinting(false);
       }
